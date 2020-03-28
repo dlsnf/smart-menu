@@ -1,0 +1,604 @@
+* {
+-webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+margin:0; padding:0;
+}
+
+/*OswaldFont 글꼴*/
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../font/oswald/Oswald-ExtraLight.otf');
+  src: url('../font/oswald/Oswald-ExtraLight.eot?#iefix') format('embedded-opentype'),
+       url('../font/oswald/Oswald-ExtraLight.woff2') format('woff2'),
+       url('../font/oswald/Oswald-ExtraLight.woff') format('woff'),2017-09-26
+       url('../font/oswald/Oswald-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../font/oswald/Oswald-Light.otf');
+  src: url('../font/oswald/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/oswald/Oswald-Light.woff2') format('woff2'),
+       url('../font/oswald/Oswald-Light.woff') format('woff'),2017-09-26
+       url('../font/oswald/Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/oswald/Oswald-Regular.otf');
+  src: url('../font/oswald/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/oswald/Oswald-Regular.woff2') format('woff2'),
+       url('../font/oswald/Oswald-Regular.woff') format('woff'),2017-09-26
+       url('../font/oswald/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/oswald/Oswald-Medium.otf');
+  src: url('../font/oswald/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../font/oswald/Oswald-Medium.woff2') format('woff2'),
+       url('../font/oswald/Oswald-Medium.woff') format('woff'),2017-09-26
+       url('../font/oswald/Oswald-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../font/oswald/Oswald-SemiBold.otf');
+  src: url('../font/oswald/Oswald-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../font/oswald/Oswald-SemiBold.woff2') format('woff2'),
+       url('../font/oswald/Oswald-SemiBold.woff') format('woff'),2017-09-26
+       url('../font/oswald/Oswald-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/oswald/Oswald-Bold.otf');
+  src: url('../font/oswald/Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/oswald/Oswald-Bold.woff2') format('woff2'),
+       url('../font/oswald/Oswald-Bold.woff') format('woff'),2017-09-26
+       url('../font/oswald/Oswald-Bold.ttf') format('truetype');
+}
+
+
+/*나눔 고딕 글꼴*/
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/NanumGothic-Regular.eot');
+  src: url('../font/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/NanumGothic-Regular.woff2') format('woff2'),
+       url('../font/NanumGothic-Regular.woff') format('woff'),2017-09-26
+       url('../font/NanumGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/NanumGothic-Bold.eot');
+  src: url('../font/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/NanumGothic-Bold.woff2') format('woff2'),
+       url('../font/NanumGothic-Bold.woff') format('woff'),
+       url('../font/NanumGothic-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../font/NanumGothic-ExtraBold.eot');
+  src: url('../font/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../font/NanumGothic-ExtraBold.woff2') format('woff2'),
+       url('../font/NanumGothic-ExtraBold.woff') format('woff'),
+       url('../font/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+
+
+/*
+@font-face {
+  font-family:'NanumMyeongjo-Regular';
+  font-style: normal;
+  src: url('../font/NanumMyeongjo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'NanumMyeongjo-ExtraBold';
+  font-style: normal;
+  src: url('../font/NanumMyeongjo-ExtraBold.ttf') format('truetype');
+}
+*/
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  /*텍스트 자동 조절 방지*/
+    -webkit-text-size-adjust:none;
+
+   
+}
+
+html,body{
+  width:100%;
+} 
+img {border:none;}
+
+ul,li{
+    list-style:none;
+}
+body{
+  position: relative;
+  overflow-y:auto;
+    overflow-x:hidden;
+  background:#f8f8f8 !important;
+    
+}
+
+a:link    {text-decoration:none; }
+a:visited {text-decoration:none; }
+a:active  {text-decoration:none; }
+a:hover  {text-decoration:none;}
+
+
+
+
+
+.font_oswald_ExtraLight{
+  font-family: "Oswald", sans-serif !important;
+  font-weight:200 !important;
+}
+
+.font_oswald_light{
+  font-family: "Oswald", sans-serif !important;
+  font-weight:300 !important;
+}
+
+.font_oswald_regular{
+  font-family: "Oswald", sans-serif !important;
+  font-weight:400 !important;
+}
+
+.font_oswald_medium{
+  font-family: "Oswald", sans-serif !important;
+  font-weight:500 !important;
+}
+
+.font_oswald_semi_bold{
+  font-family: "Oswald", sans-serif !important;
+  font-weight:600 !important;
+}
+
+.font_oswald_bold{
+  font-family: "Oswald", sans-serif !important;
+  font-weight:700 !important;
+}
+
+
+
+.text_big{
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 70px;
+}
+
+.text_big_row{
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 60px;
+}
+
+.text_big_row2{
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 100px;
+}
+
+
+.text_top{
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 50px;
+}
+
+.text_top_low{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 40px;
+}
+
+.text_top_low2{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 40px;
+}
+
+.text_top_low_low{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 28px;
+}
+
+.text_top_low_low_low{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 24px;
+}
+
+
+.text_middle{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 20px;
+}
+.text_middle_low{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 18px;
+}
+
+.text_middle2{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 30px;
+}
+
+.text_small{
+box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:600;
+  font-size: 14px;
+}
+
+
+
+
+
+.all_wrap{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+}
+
+.content{
+  width:100%;
+}
+
+
+.step{
+  min-height:800px !important;
+}
+
+
+
+
+
+
+
+.step:nth-child(1){
+  background:#ffd0c5 !important
+}
+
+
+
+
+.step_11{
+  padding-bottom:120px;
+}
+
+
+
+.pos{
+  width:100%;
+  height:100%;
+  display:table;
+}
+
+
+
+
+.pos .pos_ul{
+  width:100%;
+  box-sizing: border-box;
+  border:1px solid #000;
+  display: table;
+}
+
+
+
+.pos .pos_ul .pos_ul_li{
+  float:left;
+  box-sizing: border-box;
+  padding:10px;
+}
+
+.pos .pos_ul .pos_ul_li:nth-child(1){
+  width:45%;
+}
+
+.pos .pos_ul .pos_ul_li:nth-child(2){
+  width:55%;
+}
+
+
+
+.menu_ul{
+  display:table;
+  width:100%;
+}
+
+.menu_ul li{
+  float:left;
+  width:calc(100%/3);
+  padding-bottom:calc(100%/3);
+  box-sizing: border-box;
+  border:1px solid #000;
+  cursor: pointer;
+  position: relative;
+  background: #fff;
+
+     -ms-user-select: none; 
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+
+}
+
+
+.menu_div{
+
+  position: absolute;
+  width:100%;
+  height:100%;
+
+  text-align: center;
+
+}
+
+
+
+
+
+
+.order_sale{
+  width:100%;
+  height:100%;
+  display:table;
+}
+
+
+.sale_list{
+  background: #fff;
+  width:100%;
+  height:300px;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch;
+  box-sizing: border-box;
+  border:1px solid #000;
+  border-radius: 4px;
+}
+
+
+.sale_list .item{
+  width:100%;
+  border:1px solid #000;
+  height:30px;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+}
+
+
+
+
+
+
+
+
+.order_sale_table{
+  width:100%;
+  display:table;
+  /*margin-bottom:2px;*/
+}
+
+.order_sale_table ul{
+  display:table;
+  width:100%;
+  border:1px solid #000;
+
+  border-bottom: none;
+  box-sizing: border-box;
+  background: #a8a8a8;
+}
+
+.order_sale_table li{
+  float:left;
+  color:white;
+  padding:4px;
+  padding-left:8px;
+}
+
+.order_sale_table li:nth-child(1){
+  width:20%;
+  border-right:1px solid #000;
+}
+
+.order_sale_table li:nth-child(2){
+  width:50%;
+  border-right:1px solid #000;
+}
+
+.order_sale_table li:nth-child(3){
+  width:30%;
+}
+
+
+
+
+
+
+.sale_list_table{
+  width:100%;
+  display:table;
+  margin-bottom:2px;
+}
+
+.sale_list_table ul{
+  display:table;
+  width:100%;
+  border:1px solid #000;
+  box-sizing: border-box;
+}
+
+.sale_list_table li{
+  float:left;
+  padding:4px;
+  padding-left:8px;
+}
+
+.sale_list_table li:nth-child(1){
+  width:20%;
+  border-right:1px solid #000;
+}
+
+.sale_list_table li:nth-child(2){
+  width:50%;
+  border-right:1px solid #000;
+
+}
+
+.sale_list_table li:nth-child(3){
+  width:30%;
+  text-align:right;
+}
+
+
+.final_price{
+  width: 100%;
+  display: table;
+}
+
+.final_price span{
+  float:right;
+}
+
+
+
+
+
+
+.btn_div{
+  margin-top:10px;
+  margin-bottom:10px;
+
+  width:calc(50% - 2px);
+  float:left;
+  display:inline-block;
+  box-sizing: border-box;
+
+  padding:20px 20px;
+}
+
+.btn_div:nth-child(1){
+
+  
+  float:left;
+
+}
+
+.btn_div:nth-child(2){
+
+  
+  float:right;
+
+}
+
+
+
+.button{
+  display: table;
+  width:100%;
+}
+
+.button button:nth-child(3){
+
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+
+
+/*브라우저 크기가 1200px 이하일때 */
+@media only screen and (max-width: 1200px){
+
+
+  .pos .pos_ul .pos_ul_li{
+    width:100% !important;
+  }
+
+  .pos .pos_ul .menu_ul li{
+      width: 50% !important;
+      padding-bottom: 50% !important;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

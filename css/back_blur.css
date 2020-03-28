@@ -1,0 +1,290 @@
+.full_size{
+
+	width:100%;
+	height:900px;
+	min-height:700px;
+	    overflow: hidden;
+	position: relative;
+	transition: opacity .2s ease,line-height ease;
+    -webkit-transition: opacity .2s ease,line-height ease;
+    -moz-transition: opacity .2s ease,line-height ease;
+    -ms-transition: opacity .2s ease,line-height ease;
+    -o-transition: opacity .2s ease,line-height ease;
+}
+.bg_el{
+	background: url("../images/IMG_9987.JPG");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center !important;
+	width:100%;
+	height:100%;
+
+	position: absolute;
+	left: 0px;
+    top: 0px;
+	
+
+}
+
+.card{
+    width: 1200px;
+    max-width: 1200px;
+    /* height: 90%; */
+    display: inline-block;
+    border: rgba(200,200,200,0.5) solid 1px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 20px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.card .card_text{
+    width: 100%;
+    /* height: 100%; */
+    display: inline-block;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 2;
+    /* position: absolute; */
+    /* text-shadow: 0px 4px 4px rgba(0,0,0,0.6); */
+    box-sizing: border-box;
+    padding: 30px;
+		
+}
+
+
+
+.card .card_text .card_box{
+	width:100%;
+	    position: relative;
+		display:inline-block;
+}
+
+.card_box ul{
+	display:inline-block;
+	    width: 100%;
+}
+
+.card_box ul li{
+	float:left;
+	width: -webkit-calc(50% - 10px); /* for Chrome, Safari */
+	width :    -moz-calc(50% - 10px); /* for Firefox */
+	width :         calc(50% - 10px); /* for IE */
+	display: inline-block;
+}
+.card_box ul li:nth-child(1){
+
+margin-right: 20px;
+}
+
+.map_box{
+display:inline-block;
+width:100%;
+}
+
+.map_box h1{
+	font-family:'Nanum Gothic';
+	font-weight: 400;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 0px 4px 4px rgba(0,0,0,0.6);
+	margin-bottom:10px;
+}
+
+.map_google{
+	width:100%;
+	height:450px;
+	display:inline-block;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+	border-radius:4px;
+	overflow: hidden;
+}
+
+.map_bottom span{
+	font-family:'Nanum Gothic';
+	font-weight: 400;
+	font-size:12px;
+	color:#fff;
+	text-shadow: 0px 4px 4px rgba(0,0,0,0.6);
+}
+
+.btn_box{
+	width:100%;
+	height:40px;
+	
+}
+
+.btn_box div{
+	width:60px;
+	height:100%;
+	display:table;
+	text-align:center;
+	float:right;
+
+	box-sizing:border-box;	
+	background:rgba(255,255,255,0.6);
+	border:none;
+
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+	border-radius:4px;
+	cursor:pointer;
+
+	transition: all .35s ease,line-height ease;
+    -webkit-transition: all .35s ease,line-height ease;
+    -moz-transition: all .35s ease,line-height ease;
+    -ms-transition: all .35s ease,line-height ease;
+    -o-transition: all .35s ease,line-height ease;
+}
+
+.btn_box div span{
+	display:table-cell;
+	vertical-align:middle;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 800;
+	font-size:14px;
+	color:#6e8a95;
+
+}
+
+.no-touch .btn_box div:hover{
+	background:rgba(255,255,255,1.0);
+}
+
+
+
+.contact_box{
+	box-sizing:border-box;
+	display:inline-block;
+	width:100%;
+}
+
+.contact_box h1{
+	font-family:'Nanum Gothic';
+	font-weight: 400;
+	font-size:20px;
+	color:#fff;
+	text-shadow: 0px 4px 4px rgba(0,0,0,0.6);
+	margin-bottom:10px;
+}
+
+.contact_box form{
+	width:100%;
+}
+
+
+
+
+.contact_box form input{
+	width:100%;
+	height:60px;
+	box-sizing:border-box;
+	padding:10px;
+	
+	background:rgba(255,255,255,0.6);
+	border:none;
+
+	color:#6e8a95;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:18px;
+	font-weight:800;
+	letter-spacing:0px;
+		box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+	border-radius:4px;
+	margin-bottom:20px;
+}
+
+.contact_box form textarea{
+	width:100%;
+	height:210px;
+	box-sizing:border-box;
+	padding:10px;
+	
+	background:rgba(255,255,255,0.6);
+	border:none;
+
+	color:#6e8a95;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:18px;
+	font-weight:800;
+	letter-spacing:0px;
+		box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+	border-radius:4px;
+	margin-bottom:20px;
+	resize:none;
+}
+
+input:focus {outline: 0px; outline-color: rgba(245,130,32,0.0); outline-style:solid}
+textarea:focus {outline: 0px; outline-color: rgba(245,130,32,0.0); outline-style:solid}
+
+
+
+
+.bug{
+	/*display:none;*/
+}
+
+
+.bg_back{
+	background: url("../images/IMG_9987.JPG");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center !important;
+	width:100%;
+	height:100%;
+
+	position: absolute;
+	left: 0px;
+    top: 0px;
+
+	filter: blur(10px); 
+-webkit-filter: blur(10px); 
+-moz-filter: blur(10px);
+-o-filter: blur(10px); 
+-ms-filter: blur(10px);
+filter:progid:DXImageTransform.Microsoft.Blur(pixelradius='10', shadowopacity='0.0');
+
+}
+
+
+/*브라우저 크기가 1300px 이하일때 */
+@media only screen and (max-width: 1300px){
+
+	.card{
+		width: -webkit-calc(100% - 30px); /* for Chrome, Safari */
+		width :    -moz-calc(100% - 30px); /* for Firefox */
+		width :         calc(100% - 30px); /* for IE */
+
+	}
+
+}
+
+/*브라우저 크기가 780px 이하일때 */
+@media only screen and (max-width: 780px){
+
+	.card_box ul li{
+		width: 100%
+	}
+	.card_box ul li:nth-child(1){
+
+	margin-right: 0px;
+	}
+
+
+	.map_google{
+		height:80vmin;
+	}
+
+	.card_box ul li:nth-child(2){
+
+	margin-top: 60px;
+	}
+
+}
+
+
